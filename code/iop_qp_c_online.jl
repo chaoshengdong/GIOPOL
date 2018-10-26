@@ -78,7 +78,7 @@ for rep = 1:10
     tt = toc()
     Time = push!(Time, tt)
 end
-writedlm("C:/Users/CHD58/Desktop/estimation_error.txt", estimation_error, ' ')
-writedlm("C:/Users/CHD58/Desktop/cum_risk.txt", cum_risk, ' ')
-writedlm("C:/Users/CHD58/Desktop/Time15.txt", Time, ' ')
+#writedlm("C:/Users/CHD58/Desktop/estimation_error.txt", estimation_error, ' ')
+#writedlm("C:/Users/CHD58/Desktop/cum_risk.txt", cum_risk, ' ')
+#writedlm("C:/Users/CHD58/Desktop/Time15.txt", Time, ' ')
 #######################################################################
