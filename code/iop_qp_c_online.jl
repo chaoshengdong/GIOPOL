@@ -82,17 +82,3 @@ writedlm("C:/Users/CHD58/Desktop/estimation_error.txt", estimation_error, ' ')
 writedlm("C:/Users/CHD58/Desktop/cum_risk.txt", cum_risk, ' ')
 writedlm("C:/Users/CHD58/Desktop/Time15.txt", Time, ' ')
 #######################################################################
-# c1 = [3.2;1.16]; c2 = [-5.89;-4.81]
-# J = 41; W1 = linspace(0,1,J);
-# x = GenerateData(n,Q,c,A,b,J);
-# writedlm("C:/Users/CHD58/Desktop/x.txt", x, ' ') # estimated efficient solutions
-#
-# #######################################################################
-# y = readdlm("C:/Users/CHD58/Desktop/y.txt"); # observations
-# xx = GenerateData(W1,n,Q1,Q2,c1,c2,A,b,J);
-# Jindex = zeros(1000,1);
-# for i = 1:1000
-#     Jindex[i] = indmin( pairwise(SqEuclidean(), y, xx)[i,:] )
-# end
-#
-# writedlm("C:/Users/CHD58/Desktop/Jindex.txt", Jindex, ' ') # estimated efficient solutions
