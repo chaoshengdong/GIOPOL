@@ -54,7 +54,7 @@ srand(1);
 c = -rand(Uniform(0,5),n); b = [-40;zeros(n,1)];
 c_true = c;
 T = 1000; pmin = 5; pmax = 25; estimation_error = Float64[]; cum_risk = Float64[]; Time = Float64[];
-for rep = 1:10
+for rep = 1:100
     srand(rep)
     P = rand(Uniform(pmin,pmax),T,n);
     x = GenerateData(n,Q,c_true,-P,b,T);
